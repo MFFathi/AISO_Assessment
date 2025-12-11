@@ -1,0 +1,23 @@
+﻿SIMULATED ANNEALING - TSP RESULTS,,,,,
+Starting City (auto-chosen best),26,23,12,1,20
+Number of cities visited,10,20,30,40,50
+Final Distance,310.95,450.77,536.77,573.4,597.06
+Execution Time,0.0177 seconds,0.0444 seconds,0.0847 seconds,0.5721 seconds,0.8664
+Initial Best Distance,301.95,450.77,536.77,573.4,597.06
+Final Best Distance,301.95,450.77,536.77,573.4,597.06
+Total Improvement,1.33%,0.00%,0.00%,0.00%,0.00%
+Number of Improvements,152,163,179,193,194
+Acceptances,305,328,348,359,355
+Rejections,695,672,652,641,645
+Acceptance Rate,30.50%,32.80%,34.80%,35.90%,35.50%
+Total Evaluations,1000,1000,1000,1000,1000
+Initial Temperature,1000,1000,1000,1000,1000
+Final Temperature,0.043607,0.043607,0.043607,0.043607,0.043607
+Cooling Rate,0.99,0.99,0.99,0.99,0.99
+Max Iterations (I),1000,1000,1000,1000,1000
+Number of Cities (N),10,20,30,40,50
+Theoretical Complexity,O(I × N²),O(I × N²),O(I × N²),O(I × N²),O(I × N²)
+Estimated Operations,"1000 × 10² = 100,000","1000 × 20² = 400,000","1000 × 30² = 900,000","1000 × 40² = 1,600,000","1000 × 50² = 2,500,000"
+Actual Time per Iteration,0.025282 ms,0.052991 ms,0.084929 ms,0.419575 ms,0.866421 ms
+Actual Time per Evaluation,0.025282 ms,0.052991 ms,0.084929 ms,0.419575 ms,0.866421 ms
+Route,City_26 → City_41 → City_32 → City_11 → City_25 → City_31 → City_50 → City_12 → City_23 → City_1 → City_26,City_23 → City_14 → City_12 → City_43 → City_31 → City_25 → City_11 → City_32 → City_45 → City_41 → City_26 → City_5 → City_13 → City_1 → City_28 → City_35 → City_6 → City_37 → City_30 → City_50 → City_23,City_12 → City_43 → City_31 → City_25 → City_11 → City_49 → City_20 → City_48 → City_45 → City_32 → City_41 → City_26 → City_27 → City_38 → City_5 → City_13 → City_1 → City_28 → City_23 → City_33 → City_24 → City_14 → City_46 → City_34 → City_37 → City_22 → City_6 → City_35 → City_30 → City_50 → City_12,City_1 → City_13 → City_5 → City_38 → City_44 → City_2 → City_47 → City_48 → City_20 → City_49 → City_31 → City_43 → City_12 → City_24 → City_33 → City_14 → City_21 → City_30 → City_29 → City_50 → City_40 → City_25 → City_11 → City_15 → City_39 → City_32 → City_45 → City_41 → City_26 → City_18 → City_27 → City_28 → City_23 → City_46 → City_34 → City_4 → City_22 → City_6 → City_35 → City_37 → City_1,City_20 → City_48 → City_47 → City_2 → City_44 → City_38 → City_5 → City_13 → City_1 → City_28 → City_27 → City_18 → City_26 → City_41 → City_45 → City_32 → City_7 → City_36 → City_39 → City_11 → City_16 → City_25 → City_15 → City_40 → City_19 → City_42 → City_8 → City_3 → City_29 → City_50 → City_30 → City_21 → City_14 → City_33 → City_9 → City_24 → City_23 → City_46 → City_34 → City_4 → City_22 → City_17 → City_35 → City_6 → City_37 → City_12 → City_43 → City_31 → City_10 → City_49 → City_20

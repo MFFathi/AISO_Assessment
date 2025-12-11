@@ -1,0 +1,19 @@
+Genetic Algorithm - TSP RESULTS,,,,,
+Starting City (auto-chosen best),12,23,12,1,20
+Number of cities visited,10,20,30,40,50
+Final Distance,301.95,445.25,489.42,629.75,602.52
+Execution Time,45.2716 seconds,46.8464 seconds,54.4576 seconds,56.3002 seconds,65.9305 seconds
+Initial Distance,390.05,886.65,1230.5,1730.31,2240.03
+Final Best Distance,301.95,445.25,489.42,629.75,602.5
+Total Improvement,2259.00%,4978.00%,6023.00%,6360.00%,7310.00%
+Number of Improvements,6,15,49,93,100
+Convergence Generation,11,39,1197,1800,1626
+Total Evaluations,400000,400000,400000,400000,400000
+Final Stagnant Generations,198900.00%,196100.00%,80300.00%,20000.00%,37400.00%
+Population Size (P,200,200,200,200,200
+Generations (G),2000,2000,2000,2000,2000
+Number of Cities (N),10,20,30,40,50
+Theoretical Complexity,O(G � P � N�),O(G � P � N�),O(G � P � N�),O(G � P � N�),O(G � P � N�)
+Estimated Operations,"2000 � 200 � 10� = 40,000,000","2000 � 200 � 20� = 160,000,000","2000 � 200 � 30� = 360,000,000","2000 � 200 � 40� = 640,000,000","2000 � 200 � 50� = 1,000,000,000"
+Actual Time per Operation,0.109915 ms,0.117116 ms,0.136144 ms,0.140750 ms,0.151640 ms
+Route,City_12 ? City_50 ? City_31 ? City_25 ? City_11 ? City_32 ? City_41 ? City_26 ? City_1 ? City_23 ? City_12,City_23 ? City_13 ? City_5 ? City_32 ? City_45 ? City_41 ? City_26 ? City_28 ? City_1 ? City_35 ? City_6 ? City_37 ? City_30 ? City_50 ? City_11 ? City_25 ? City_31 ? City_43 ? City_12 ? City_14 ? City_23,City_12 ? City_43 ? City_31 ? City_25 ? City_11 ? City_49 ? City_20 ? City_48 ? City_32 ? City_45 ? City_41 ? City_5 ? City_38 ? City_26 ? City_27 ? City_28 ? City_13 ? City_1 ? City_35 ? City_6 ? City_22 ? City_37 ? City_34 ? City_46 ? City_23 ? City_33 ? City_24 ? City_14 ? City_30 ? City_50 ? City_12,,City_20 ? City_44 ? City_38 ? City_5 ? City_1 ? City_35 ? City_17 ? City_6 ? City_22 ? City_4 ? City_37 ? City_34 ? City_46 ? City_21 ? City_14 ? City_24 ? City_9 ? City_33 ? City_23 ? City_13 ? City_28 ? City_27 ? City_18 ? City_26 ? City_41 ? City_2 ? City_47 ? City_48 ? City_45 ? City_32 ? City_7 ? City_36 ? City_39 ? City_15 ? City_11 ? City_16 ? City_25 ? City_40 ? City_42 ? City_19 ? City_8 ? City_3 ? City_50 ? City_29 ? City_30 ? City_12 ? City_43 ? City_31 ? City_10 ? City_49 ? City_20
