@@ -1,0 +1,882 @@
+====================================================================================================
+SIMULATED ANNEALING - TSP BATCH EXPERIMENT RESULTS
+====================================================================================================
+Author: Mohamed Elafifi
+Student ID: 22066939
+Generated: 2025-12-13 13:40:37
+====================================================================================================
+
+EXPERIMENT PARAMETERS
+--------------------------------------------------
+Initial Temperature: 1000
+Cooling Rate: 0.99
+Max Iterations: 1000
+Seeds Used: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+City Sizes: [10, 20, 30, 40, 50]
+Total Runs: 50
+
+====================================================================================================
+DETAILED RESULTS FOR EACH RUN
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.036182 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:153
+  Acceptances:           321
+  Rejections:            679
+  Acceptance Rate:       32.10%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_8
+  Route: City_8 -> City_10 -> City_7 -> City_2 -> City_5 -> City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        434.33
+  Execution Time:        0.083254 seconds
+  Initial Distance:      437.17
+  Improvement:           0.65%
+  Number of Improvements:173
+  Acceptances:           346
+  Rejections:            654
+  Acceptance Rate:       34.60%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_17 -> City_6 -> City_4 -> City_9 -> City_14 -> City_8 -> City_3 -> City_19 -> City_15 -> City_11 -> City_16 -> City_7 -> City_10 -> City_12 -> City_20 -> City_2 -> City_18 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.201343 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:175
+  Acceptances:           333
+  Rejections:            667
+  Acceptance Rate:       33.30%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.843969 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:167
+  Acceptances:           342
+  Rejections:            658
+  Acceptance Rate:       34.20%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.303272 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:203
+  Acceptances:           381
+  Rejections:            619
+  Acceptance Rate:       38.10%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.035159 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:170
+  Acceptances:           335
+  Rejections:            665
+  Acceptance Rate:       33.50%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_6
+  Route: City_6 -> City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.072005 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:205
+  Acceptances:           361
+  Rejections:            639
+  Acceptance Rate:       36.10%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.187584 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:192
+  Acceptances:           343
+  Rejections:            657
+  Acceptance Rate:       34.30%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.758444 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:176
+  Acceptances:           356
+  Rejections:            644
+  Acceptance Rate:       35.60%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.305316 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:202
+  Acceptances:           387
+  Rejections:            613
+  Acceptance Rate:       38.70%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.033899 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:161
+  Acceptances:           302
+  Rejections:            698
+  Acceptance Rate:       30.20%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_1
+  Route: City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.090564 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:170
+  Acceptances:           355
+  Rejections:            645
+  Acceptance Rate:       35.50%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.213657 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:173
+  Acceptances:           338
+  Rejections:            662
+  Acceptance Rate:       33.80%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.840720 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:170
+  Acceptances:           336
+  Rejections:            664
+  Acceptance Rate:       33.60%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.331308 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:196
+  Acceptances:           355
+  Rejections:            645
+  Acceptance Rate:       35.50%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.028504 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:168
+  Acceptances:           339
+  Rejections:            661
+  Acceptance Rate:       33.90%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_7
+  Route: City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1 -> City_5 -> City_2 -> City_7
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.081122 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:174
+  Acceptances:           343
+  Rejections:            657
+  Acceptance Rate:       34.30%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.175964 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:176
+  Acceptances:           330
+  Rejections:            670
+  Acceptance Rate:       33.00%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.749032 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:195
+  Acceptances:           354
+  Rejections:            646
+  Acceptance Rate:       35.40%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.385271 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:192
+  Acceptances:           362
+  Rejections:            638
+  Acceptance Rate:       36.20%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.031311 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:175
+  Acceptances:           327
+  Rejections:            673
+  Acceptance Rate:       32.70%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_10
+  Route: City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1 -> City_5 -> City_2 -> City_7 -> City_10
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.100054 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:176
+  Acceptances:           328
+  Rejections:            672
+  Acceptance Rate:       32.80%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.194768 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:181
+  Acceptances:           345
+  Rejections:            655
+  Acceptance Rate:       34.50%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.820453 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:200
+  Acceptances:           371
+  Rejections:            629
+  Acceptance Rate:       37.10%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.394641 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:185
+  Acceptances:           341
+  Rejections:            659
+  Acceptance Rate:       34.10%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.034110 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:163
+  Acceptances:           330
+  Rejections:            670
+  Acceptance Rate:       33.00%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_1
+  Route: City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.081544 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:181
+  Acceptances:           346
+  Rejections:            654
+  Acceptance Rate:       34.60%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.203437 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:167
+  Acceptances:           316
+  Rejections:            684
+  Acceptance Rate:       31.60%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.809372 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:203
+  Acceptances:           373
+  Rejections:            627
+  Acceptance Rate:       37.30%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.327581 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:182
+  Acceptances:           353
+  Rejections:            647
+  Acceptance Rate:       35.30%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.033091 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:171
+  Acceptances:           337
+  Rejections:            663
+  Acceptance Rate:       33.70%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.082211 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:184
+  Acceptances:           348
+  Rejections:            652
+  Acceptance Rate:       34.80%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.170887 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:194
+  Acceptances:           343
+  Rejections:            657
+  Acceptance Rate:       34.30%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.867322 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:182
+  Acceptances:           337
+  Rejections:            663
+  Acceptance Rate:       33.70%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.391352 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:187
+  Acceptances:           342
+  Rejections:            658
+  Acceptance Rate:       34.20%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.037456 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:166
+  Acceptances:           320
+  Rejections:            680
+  Acceptance Rate:       32.00%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_7
+  Route: City_7 -> City_2 -> City_5 -> City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.087270 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:180
+  Acceptances:           356
+  Rejections:            644
+  Acceptance Rate:       35.60%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.199335 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:196
+  Acceptances:           344
+  Rejections:            656
+  Acceptance Rate:       34.40%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.789604 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:184
+  Acceptances:           341
+  Rejections:            659
+  Acceptance Rate:       34.10%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.348290 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:202
+  Acceptances:           377
+  Rejections:            623
+  Acceptance Rate:       37.70%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.030417 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:159
+  Acceptances:           326
+  Rejections:            674
+  Acceptance Rate:       32.60%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.085521 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:183
+  Acceptances:           339
+  Rejections:            661
+  Acceptance Rate:       33.90%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.187317 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:191
+  Acceptances:           350
+  Rejections:            650
+  Acceptance Rate:       35.00%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.834335 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:177
+  Acceptances:           332
+  Rejections:            668
+  Acceptance Rate:       33.20%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.330381 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:204
+  Acceptances:           370
+  Rejections:            630
+  Acceptance Rate:       37.00%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        0.035414 seconds
+  Initial Distance:      312.24
+  Improvement:           7.02%
+  Number of Improvements:156
+  Acceptances:           325
+  Rejections:            675
+  Acceptance Rate:       32.50%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_6
+  Route: City_6 -> City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        437.17
+  Execution Time:        0.086228 seconds
+  Initial Distance:      437.17
+  Improvement:           0.00%
+  Number of Improvements:186
+  Acceptances:           347
+  Rejections:            653
+  Acceptance Rate:       34.70%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_8 -> City_3 -> City_12 -> City_10 -> City_9 -> City_14 -> City_4 -> City_17 -> City_6 -> City_1 -> City_18 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        519.06
+  Execution Time:        0.188961 seconds
+  Initial Distance:      519.06
+  Improvement:           0.00%
+  Number of Improvements:173
+  Acceptances:           334
+  Rejections:            666
+  Acceptance Rate:       33.40%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_25 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_24 -> City_23 -> City_4 -> City_22 -> City_17 -> City_6 -> City_12 -> City_10 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        552.30
+  Execution Time:        0.751639 seconds
+  Initial Distance:      552.30
+  Improvement:           0.00%
+  Number of Improvements:174
+  Acceptances:           333
+  Rejections:            667
+  Acceptance Rate:       33.30%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_31 -> City_10 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        597.06
+  Execution Time:        1.296091 seconds
+  Initial Distance:      597.06
+  Improvement:           0.00%
+  Number of Improvements:203
+  Acceptances:           375
+  Rejections:            625
+  Acceptance Rate:       37.50%
+  Total Evaluations:     1000
+  Final Temperature:     0.043607
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_32 -> City_7 -> City_36 -> City_39 -> City_11 -> City_16 -> City_25 -> City_15 -> City_40 -> City_19 -> City_42 -> City_8 -> City_3 -> City_29 -> City_50 -> City_30 -> City_21 -> City_14 -> City_33 -> City_9 -> City_24 -> City_23 -> City_46 -> City_34 -> City_4 -> City_22 -> City_17 -> City_35 -> City_6 -> City_37 -> City_12 -> City_43 -> City_31 -> City_10 -> City_49 -> City_20
+
+====================================================================================================
+SUMMARY STATISTICS BY CITY SIZE
+====================================================================================================
+
+--- 10 CITIES ---
+  Distance - Mean: 290.31, Std: 0.00, Min: 290.31, Max: 290.31
+  Time (s) - Mean: 0.033554, Std: 0.002630, Min: 0.028504, Max: 0.037456
+  Improvement (%) - Mean: 7.02, Std: 0.00
+  Acceptance Rate (%) - Mean: 32.62
+
+--- 20 CITIES ---
+  Distance - Mean: 436.88, Std: 0.85, Min: 434.33, Max: 437.17
+  Time (s) - Mean: 0.084977, Std: 0.006864, Min: 0.072005, Max: 0.100054
+  Improvement (%) - Mean: 0.06, Std: 0.19
+  Acceptance Rate (%) - Mean: 34.69
+
+--- 30 CITIES ---
+  Distance - Mean: 519.06, Std: 0.00, Min: 519.06, Max: 519.06
+  Time (s) - Mean: 0.192325, Std: 0.012252, Min: 0.170887, Max: 0.213657
+  Improvement (%) - Mean: 0.00, Std: 0.00
+  Acceptance Rate (%) - Mean: 33.76
+
+--- 40 CITIES ---
+  Distance - Mean: 552.30, Std: 0.00, Min: 552.30, Max: 552.30
+  Time (s) - Mean: 0.806489, Std: 0.040198, Min: 0.749032, Max: 0.867322
+  Improvement (%) - Mean: 0.00, Std: 0.00
+  Acceptance Rate (%) - Mean: 34.75
+
+--- 50 CITIES ---
+  Distance - Mean: 597.06, Std: 0.00, Min: 597.06, Max: 597.06
+  Time (s) - Mean: 1.341350, Std: 0.035390, Min: 1.296091, Max: 1.394641
+  Improvement (%) - Mean: 0.00, Std: 0.00
+  Acceptance Rate (%) - Mean: 36.43
+
+====================================================================================================
+SUMMARY STATISTICS BY SEED
+====================================================================================================
+
+Seed 0: Avg Distance = 478.61, Total Time = 2.4680s
+Seed 1: Avg Distance = 479.18, Total Time = 2.3585s
+Seed 2: Avg Distance = 479.18, Total Time = 2.5101s
+Seed 3: Avg Distance = 479.18, Total Time = 2.4199s
+Seed 4: Avg Distance = 479.18, Total Time = 2.5412s
+Seed 5: Avg Distance = 479.18, Total Time = 2.4560s
+Seed 6: Avg Distance = 479.18, Total Time = 2.5449s
+Seed 7: Avg Distance = 479.18, Total Time = 2.4620s
+Seed 8: Avg Distance = 479.18, Total Time = 2.4680s
+Seed 9: Avg Distance = 479.18, Total Time = 2.3583s
+
+====================================================================================================
+OVERALL SUMMARY
+====================================================================================================
+Total Runs: 50
+Overall Mean Distance: 479.12
+Overall Std Distance: 107.98
+Best Distance Found: 290.31
+Worst Distance Found: 597.06
+Overall Mean Acceptance Rate: 34.45%
+Total Execution Time: 24.5870 seconds
+Average Time per Run: 0.491739 seconds
+====================================================================================================

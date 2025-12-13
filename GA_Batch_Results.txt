@@ -1,0 +1,777 @@
+====================================================================================================
+GENETIC ALGORITHM - TSP BATCH EXPERIMENT RESULTS (OPTIMIZED)
+====================================================================================================
+Author: Mohamed Elafifi
+Student ID: 22066939
+Generated: 2025-12-13 13:55:07
+====================================================================================================
+
+EXPERIMENT PARAMETERS
+--------------------------------------------------
+Population Size: 100
+Generations: 500
+Mutation Rate: 0.02
+Seeds Used: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+City Sizes: [10, 20, 30, 40, 50]
+Total Runs: 50
+Total Execution Time: 239.54 seconds
+
+====================================================================================================
+DETAILED RESULTS FOR EACH RUN
+====================================================================================================
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.2160 seconds
+  Initial Distance:      364.81
+  Improvement:           20.42%
+  Number of Improvements:5
+  Convergence Generation:22
+  Total Evaluations:     50000
+  Stagnant Generations:  478
+  Starting City:         City_1
+  Route: City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        386.43
+  Execution Time:        4.4669 seconds
+  Initial Distance:      823.58
+  Improvement:           53.08%
+  Number of Improvements:23
+  Convergence Generation:47
+  Total Evaluations:     50000
+  Stagnant Generations:  453
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_18 -> City_2 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_10 -> City_19 -> City_3 -> City_8 -> City_12 -> City_9 -> City_14 -> City_4 -> City_6 -> City_17 -> City_1 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        520.42
+  Execution Time:        4.7166 seconds
+  Initial Distance:      1320.97
+  Improvement:           60.60%
+  Number of Improvements:39
+  Convergence Generation:76
+  Total Evaluations:     50000
+  Stagnant Generations:  424
+  Starting City:         City_5
+  Route: City_5 -> City_2 -> City_26 -> City_18 -> City_27 -> City_28 -> City_1 -> City_17 -> City_6 -> City_22 -> City_4 -> City_23 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_25 -> City_10 -> City_24 -> City_9 -> City_12 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        587.30
+  Execution Time:        5.2158 seconds
+  Initial Distance:      1867.32
+  Improvement:           68.55%
+  Number of Improvements:84
+  Convergence Generation:246
+  Total Evaluations:     50000
+  Stagnant Generations:  254
+  Starting City:         City_20
+  Route: City_20 -> City_16 -> City_11 -> City_25 -> City_10 -> City_31 -> City_12 -> City_24 -> City_9 -> City_33 -> City_37 -> City_6 -> City_35 -> City_17 -> City_22 -> City_4 -> City_34 -> City_13 -> City_5 -> City_32 -> City_7 -> City_36 -> City_39 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_23 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_38 -> City_2 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 0 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        717.50
+  Execution Time:        5.5373 seconds
+  Initial Distance:      2316.35
+  Improvement:           69.02%
+  Number of Improvements:99
+  Convergence Generation:485
+  Total Evaluations:     50000
+  Stagnant Generations:  15
+  Starting City:         City_20
+  Route: City_20 -> City_10 -> City_31 -> City_8 -> City_3 -> City_19 -> City_42 -> City_40 -> City_15 -> City_39 -> City_11 -> City_16 -> City_25 -> City_50 -> City_29 -> City_30 -> City_21 -> City_46 -> City_34 -> City_37 -> City_4 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_28 -> City_13 -> City_23 -> City_33 -> City_9 -> City_24 -> City_14 -> City_12 -> City_43 -> City_49 -> City_5 -> City_38 -> City_27 -> City_18 -> City_26 -> City_41 -> City_47 -> City_48 -> City_32 -> City_36 -> City_7 -> City_45 -> City_44 -> City_2 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0631 seconds
+  Initial Distance:      376.35
+  Improvement:           22.86%
+  Number of Improvements:6
+  Convergence Generation:8
+  Total Evaluations:     50000
+  Stagnant Generations:  492
+  Starting City:         City_1
+  Route: City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        448.59
+  Execution Time:        4.3658 seconds
+  Initial Distance:      798.87
+  Improvement:           43.85%
+  Number of Improvements:24
+  Convergence Generation:67
+  Total Evaluations:     50000
+  Stagnant Generations:  433
+  Starting City:         City_13
+  Route: City_13 -> City_4 -> City_6 -> City_17 -> City_1 -> City_18 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_3 -> City_8 -> City_14 -> City_9 -> City_12 -> City_10 -> City_20 -> City_2 -> City_5 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        575.16
+  Execution Time:        4.7296 seconds
+  Initial Distance:      1274.49
+  Improvement:           54.87%
+  Number of Improvements:34
+  Convergence Generation:69
+  Total Evaluations:     50000
+  Stagnant Generations:  431
+  Starting City:         City_5
+  Route: City_5 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_25 -> City_10 -> City_24 -> City_9 -> City_2 -> City_26 -> City_18 -> City_27 -> City_23 -> City_14 -> City_21 -> City_12 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_4 -> City_22 -> City_6 -> City_17 -> City_1 -> City_28 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        546.31
+  Execution Time:        5.2394 seconds
+  Initial Distance:      1864.06
+  Improvement:           70.69%
+  Number of Improvements:81
+  Convergence Generation:244
+  Total Evaluations:     50000
+  Stagnant Generations:  256
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_5 -> City_38 -> City_26 -> City_18 -> City_27 -> City_28 -> City_13 -> City_1 -> City_35 -> City_17 -> City_6 -> City_22 -> City_4 -> City_37 -> City_34 -> City_23 -> City_33 -> City_9 -> City_24 -> City_14 -> City_21 -> City_30 -> City_12 -> City_31 -> City_10 -> City_16 -> City_25 -> City_8 -> City_29 -> City_3 -> City_19 -> City_40 -> City_15 -> City_11 -> City_39 -> City_36 -> City_7 -> City_32 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 1 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        710.79
+  Execution Time:        5.6022 seconds
+  Initial Distance:      2268.54
+  Improvement:           68.67%
+  Number of Improvements:99
+  Convergence Generation:435
+  Total Evaluations:     50000
+  Stagnant Generations:  65
+  Starting City:         City_20
+  Route: City_20 -> City_49 -> City_24 -> City_9 -> City_33 -> City_12 -> City_43 -> City_31 -> City_10 -> City_25 -> City_16 -> City_11 -> City_40 -> City_19 -> City_50 -> City_30 -> City_46 -> City_37 -> City_6 -> City_35 -> City_17 -> City_22 -> City_4 -> City_34 -> City_1 -> City_28 -> City_38 -> City_44 -> City_5 -> City_13 -> City_23 -> City_14 -> City_21 -> City_29 -> City_3 -> City_8 -> City_42 -> City_15 -> City_39 -> City_36 -> City_7 -> City_32 -> City_45 -> City_48 -> City_41 -> City_26 -> City_18 -> City_27 -> City_2 -> City_47 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0856 seconds
+  Initial Distance:      386.59
+  Improvement:           24.91%
+  Number of Improvements:7
+  Convergence Generation:8
+  Total Evaluations:     50000
+  Stagnant Generations:  492
+  Starting City:         City_1
+  Route: City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        432.79
+  Execution Time:        4.3967 seconds
+  Initial Distance:      906.50
+  Improvement:           52.26%
+  Number of Improvements:30
+  Convergence Generation:66
+  Total Evaluations:     50000
+  Stagnant Generations:  434
+  Starting City:         City_13
+  Route: City_13 -> City_1 -> City_17 -> City_6 -> City_4 -> City_14 -> City_9 -> City_5 -> City_18 -> City_2 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_19 -> City_3 -> City_8 -> City_12 -> City_10 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        549.62
+  Execution Time:        4.7135 seconds
+  Initial Distance:      1420.42
+  Improvement:           61.31%
+  Number of Improvements:48
+  Convergence Generation:186
+  Total Evaluations:     50000
+  Stagnant Generations:  314
+  Starting City:         City_5
+  Route: City_5 -> City_26 -> City_18 -> City_27 -> City_28 -> City_23 -> City_14 -> City_21 -> City_12 -> City_30 -> City_29 -> City_3 -> City_8 -> City_19 -> City_15 -> City_11 -> City_25 -> City_16 -> City_7 -> City_2 -> City_20 -> City_10 -> City_24 -> City_9 -> City_4 -> City_22 -> City_6 -> City_17 -> City_1 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        640.99
+  Execution Time:        5.0517 seconds
+  Initial Distance:      1789.05
+  Improvement:           64.17%
+  Number of Improvements:96
+  Convergence Generation:499
+  Total Evaluations:     50000
+  Stagnant Generations:  1
+  Starting City:         City_20
+  Route: City_20 -> City_23 -> City_34 -> City_37 -> City_4 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_28 -> City_13 -> City_31 -> City_19 -> City_40 -> City_25 -> City_2 -> City_26 -> City_18 -> City_27 -> City_38 -> City_5 -> City_24 -> City_9 -> City_33 -> City_14 -> City_21 -> City_30 -> City_29 -> City_3 -> City_8 -> City_12 -> City_10 -> City_16 -> City_11 -> City_15 -> City_39 -> City_36 -> City_7 -> City_32 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 2 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        736.87
+  Execution Time:        5.5178 seconds
+  Initial Distance:      2367.35
+  Improvement:           68.87%
+  Number of Improvements:98
+  Convergence Generation:434
+  Total Evaluations:     50000
+  Stagnant Generations:  66
+  Starting City:         City_20
+  Route: City_20 -> City_49 -> City_16 -> City_11 -> City_15 -> City_39 -> City_45 -> City_41 -> City_26 -> City_18 -> City_27 -> City_38 -> City_24 -> City_9 -> City_33 -> City_14 -> City_21 -> City_30 -> City_29 -> City_12 -> City_43 -> City_10 -> City_31 -> City_8 -> City_3 -> City_50 -> City_19 -> City_42 -> City_40 -> City_25 -> City_36 -> City_7 -> City_32 -> City_48 -> City_47 -> City_2 -> City_44 -> City_23 -> City_46 -> City_34 -> City_37 -> City_4 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_28 -> City_13 -> City_5 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0481 seconds
+  Initial Distance:      406.35
+  Improvement:           28.56%
+  Number of Improvements:6
+  Convergence Generation:10
+  Total Evaluations:     50000
+  Stagnant Generations:  490
+  Starting City:         City_1
+  Route: City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        386.63
+  Execution Time:        4.3778 seconds
+  Initial Distance:      880.90
+  Improvement:           56.11%
+  Number of Improvements:31
+  Convergence Generation:54
+  Total Evaluations:     50000
+  Stagnant Generations:  446
+  Starting City:         City_13
+  Route: City_13 -> City_1 -> City_17 -> City_6 -> City_4 -> City_14 -> City_9 -> City_12 -> City_10 -> City_8 -> City_3 -> City_19 -> City_15 -> City_11 -> City_16 -> City_7 -> City_20 -> City_2 -> City_18 -> City_5 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        472.39
+  Execution Time:        4.7554 seconds
+  Initial Distance:      1361.72
+  Improvement:           65.31%
+  Number of Improvements:44
+  Convergence Generation:279
+  Total Evaluations:     50000
+  Stagnant Generations:  221
+  Starting City:         City_5
+  Route: City_5 -> City_13 -> City_1 -> City_17 -> City_6 -> City_22 -> City_4 -> City_23 -> City_9 -> City_24 -> City_12 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_10 -> City_25 -> City_16 -> City_11 -> City_15 -> City_7 -> City_20 -> City_2 -> City_26 -> City_18 -> City_27 -> City_28 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        622.21
+  Execution Time:        5.1472 seconds
+  Initial Distance:      1853.88
+  Improvement:           66.44%
+  Number of Improvements:80
+  Convergence Generation:476
+  Total Evaluations:     50000
+  Stagnant Generations:  24
+  Starting City:         City_20
+  Route: City_20 -> City_16 -> City_11 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_37 -> City_6 -> City_35 -> City_17 -> City_22 -> City_4 -> City_34 -> City_14 -> City_12 -> City_31 -> City_10 -> City_25 -> City_39 -> City_36 -> City_7 -> City_32 -> City_26 -> City_18 -> City_27 -> City_28 -> City_1 -> City_13 -> City_5 -> City_38 -> City_2 -> City_23 -> City_33 -> City_9 -> City_24 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 3 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        857.74
+  Execution Time:        5.5662 seconds
+  Initial Distance:      2208.57
+  Improvement:           61.16%
+  Number of Improvements:92
+  Convergence Generation:449
+  Total Evaluations:     50000
+  Stagnant Generations:  51
+  Starting City:         City_20
+  Route: City_20 -> City_49 -> City_12 -> City_43 -> City_31 -> City_10 -> City_16 -> City_11 -> City_36 -> City_7 -> City_39 -> City_15 -> City_8 -> City_3 -> City_50 -> City_29 -> City_30 -> City_14 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_48 -> City_17 -> City_35 -> City_6 -> City_22 -> City_34 -> City_23 -> City_33 -> City_9 -> City_24 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_4 -> City_37 -> City_46 -> City_21 -> City_19 -> City_42 -> City_40 -> City_25 -> City_32 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0667 seconds
+  Initial Distance:      412.25
+  Improvement:           29.58%
+  Number of Improvements:7
+  Convergence Generation:8
+  Total Evaluations:     50000
+  Stagnant Generations:  492
+  Starting City:         City_1
+  Route: City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        429.45
+  Execution Time:        4.4345 seconds
+  Initial Distance:      840.71
+  Improvement:           48.92%
+  Number of Improvements:23
+  Convergence Generation:48
+  Total Evaluations:     50000
+  Stagnant Generations:  452
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_18 -> City_2 -> City_20 -> City_8 -> City_3 -> City_19 -> City_15 -> City_11 -> City_16 -> City_7 -> City_10 -> City_12 -> City_9 -> City_14 -> City_4 -> City_6 -> City_17 -> City_1 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        627.08
+  Execution Time:        4.7650 seconds
+  Initial Distance:      1343.62
+  Improvement:           53.33%
+  Number of Improvements:43
+  Convergence Generation:146
+  Total Evaluations:     50000
+  Stagnant Generations:  354
+  Starting City:         City_5
+  Route: City_5 -> City_2 -> City_20 -> City_7 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_6 -> City_17 -> City_23 -> City_10 -> City_25 -> City_16 -> City_11 -> City_15 -> City_12 -> City_24 -> City_9 -> City_14 -> City_21 -> City_4 -> City_22 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        701.25
+  Execution Time:        5.1024 seconds
+  Initial Distance:      1799.17
+  Improvement:           61.02%
+  Number of Improvements:67
+  Convergence Generation:496
+  Total Evaluations:     50000
+  Stagnant Generations:  4
+  Starting City:         City_20
+  Route: City_20 -> City_10 -> City_31 -> City_12 -> City_14 -> City_21 -> City_23 -> City_13 -> City_1 -> City_35 -> City_17 -> City_6 -> City_22 -> City_4 -> City_37 -> City_34 -> City_25 -> City_16 -> City_36 -> City_32 -> City_26 -> City_18 -> City_27 -> City_28 -> City_24 -> City_9 -> City_33 -> City_30 -> City_29 -> City_3 -> City_8 -> City_19 -> City_40 -> City_15 -> City_11 -> City_39 -> City_7 -> City_2 -> City_38 -> City_5 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 4 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        812.29
+  Execution Time:        5.5162 seconds
+  Initial Distance:      2250.80
+  Improvement:           63.91%
+  Number of Improvements:83
+  Convergence Generation:414
+  Total Evaluations:     50000
+  Stagnant Generations:  86
+  Starting City:         City_20
+  Route: City_20 -> City_49 -> City_29 -> City_50 -> City_30 -> City_21 -> City_46 -> City_37 -> City_6 -> City_35 -> City_17 -> City_22 -> City_4 -> City_34 -> City_13 -> City_5 -> City_38 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_7 -> City_39 -> City_15 -> City_10 -> City_24 -> City_9 -> City_14 -> City_8 -> City_3 -> City_19 -> City_42 -> City_40 -> City_43 -> City_12 -> City_31 -> City_25 -> City_16 -> City_11 -> City_36 -> City_32 -> City_48 -> City_47 -> City_2 -> City_33 -> City_23 -> City_1 -> City_28 -> City_44 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0486 seconds
+  Initial Distance:      390.27
+  Improvement:           25.61%
+  Number of Improvements:7
+  Convergence Generation:26
+  Total Evaluations:     50000
+  Stagnant Generations:  474
+  Starting City:         City_1
+  Route: City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        485.71
+  Execution Time:        4.5462 seconds
+  Initial Distance:      871.74
+  Improvement:           44.28%
+  Number of Improvements:18
+  Convergence Generation:32
+  Total Evaluations:     50000
+  Stagnant Generations:  468
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_20 -> City_11 -> City_15 -> City_19 -> City_3 -> City_8 -> City_10 -> City_16 -> City_7 -> City_2 -> City_18 -> City_1 -> City_17 -> City_6 -> City_4 -> City_14 -> City_12 -> City_9 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        527.49
+  Execution Time:        4.6680 seconds
+  Initial Distance:      1260.13
+  Improvement:           58.14%
+  Number of Improvements:45
+  Convergence Generation:428
+  Total Evaluations:     50000
+  Stagnant Generations:  72
+  Starting City:         City_5
+  Route: City_5 -> City_2 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_25 -> City_10 -> City_12 -> City_14 -> City_21 -> City_30 -> City_29 -> City_3 -> City_8 -> City_19 -> City_24 -> City_9 -> City_23 -> City_26 -> City_18 -> City_27 -> City_28 -> City_1 -> City_17 -> City_6 -> City_22 -> City_4 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        600.18
+  Execution Time:        5.1661 seconds
+  Initial Distance:      1796.57
+  Improvement:           66.59%
+  Number of Improvements:68
+  Convergence Generation:269
+  Total Evaluations:     50000
+  Stagnant Generations:  231
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_33 -> City_9 -> City_24 -> City_10 -> City_25 -> City_15 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_34 -> City_37 -> City_4 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_38 -> City_5 -> City_13 -> City_23 -> City_14 -> City_12 -> City_31 -> City_16 -> City_11 -> City_39 -> City_36 -> City_7 -> City_32 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 5 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        677.76
+  Execution Time:        5.6552 seconds
+  Initial Distance:      2289.67
+  Improvement:           70.40%
+  Number of Improvements:113
+  Convergence Generation:484
+  Total Evaluations:     50000
+  Stagnant Generations:  16
+  Starting City:         City_20
+  Route: City_20 -> City_49 -> City_10 -> City_31 -> City_9 -> City_33 -> City_23 -> City_13 -> City_24 -> City_12 -> City_43 -> City_40 -> City_42 -> City_19 -> City_8 -> City_3 -> City_50 -> City_29 -> City_30 -> City_21 -> City_14 -> City_46 -> City_34 -> City_37 -> City_4 -> City_22 -> City_17 -> City_6 -> City_35 -> City_1 -> City_28 -> City_5 -> City_38 -> City_27 -> City_18 -> City_26 -> City_41 -> City_47 -> City_45 -> City_32 -> City_7 -> City_39 -> City_15 -> City_11 -> City_25 -> City_16 -> City_36 -> City_48 -> City_2 -> City_44 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0287 seconds
+  Initial Distance:      391.14
+  Improvement:           25.78%
+  Number of Improvements:7
+  Convergence Generation:423
+  Total Evaluations:     50000
+  Stagnant Generations:  77
+  Starting City:         City_1
+  Route: City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        434.25
+  Execution Time:        4.3681 seconds
+  Initial Distance:      781.72
+  Improvement:           44.45%
+  Number of Improvements:21
+  Convergence Generation:69
+  Total Evaluations:     50000
+  Stagnant Generations:  431
+  Starting City:         City_13
+  Route: City_13 -> City_1 -> City_17 -> City_6 -> City_4 -> City_5 -> City_18 -> City_2 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_10 -> City_12 -> City_19 -> City_3 -> City_8 -> City_14 -> City_9 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        489.18
+  Execution Time:        4.8276 seconds
+  Initial Distance:      1376.55
+  Improvement:           64.46%
+  Number of Improvements:37
+  Convergence Generation:105
+  Total Evaluations:     50000
+  Stagnant Generations:  395
+  Starting City:         City_5
+  Route: City_5 -> City_2 -> City_20 -> City_10 -> City_25 -> City_16 -> City_11 -> City_7 -> City_15 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_12 -> City_24 -> City_9 -> City_14 -> City_21 -> City_23 -> City_4 -> City_22 -> City_6 -> City_17 -> City_1 -> City_13 -> City_28 -> City_27 -> City_18 -> City_26 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        706.13
+  Execution Time:        5.1025 seconds
+  Initial Distance:      1796.97
+  Improvement:           60.70%
+  Number of Improvements:90
+  Convergence Generation:457
+  Total Evaluations:     50000
+  Stagnant Generations:  43
+  Starting City:         City_20
+  Route: City_20 -> City_31 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_28 -> City_5 -> City_13 -> City_23 -> City_14 -> City_12 -> City_19 -> City_40 -> City_25 -> City_32 -> City_7 -> City_36 -> City_39 -> City_15 -> City_11 -> City_16 -> City_10 -> City_24 -> City_9 -> City_33 -> City_37 -> City_4 -> City_34 -> City_38 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 6 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        738.85
+  Execution Time:        5.5848 seconds
+  Initial Distance:      2329.23
+  Improvement:           68.28%
+  Number of Improvements:82
+  Convergence Generation:421
+  Total Evaluations:     50000
+  Stagnant Generations:  79
+  Starting City:         City_20
+  Route: City_20 -> City_48 -> City_7 -> City_39 -> City_15 -> City_40 -> City_42 -> City_19 -> City_43 -> City_24 -> City_9 -> City_33 -> City_14 -> City_21 -> City_12 -> City_31 -> City_10 -> City_25 -> City_16 -> City_11 -> City_36 -> City_32 -> City_45 -> City_41 -> City_26 -> City_18 -> City_27 -> City_28 -> City_1 -> City_35 -> City_17 -> City_6 -> City_22 -> City_4 -> City_37 -> City_34 -> City_46 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_23 -> City_30 -> City_29 -> City_50 -> City_3 -> City_8 -> City_49 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0484 seconds
+  Initial Distance:      377.38
+  Improvement:           23.07%
+  Number of Improvements:6
+  Convergence Generation:20
+  Total Evaluations:     50000
+  Stagnant Generations:  480
+  Starting City:         City_1
+  Route: City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        429.45
+  Execution Time:        4.3665 seconds
+  Initial Distance:      798.46
+  Improvement:           46.22%
+  Number of Improvements:23
+  Convergence Generation:42
+  Total Evaluations:     50000
+  Stagnant Generations:  458
+  Starting City:         City_13
+  Route: City_13 -> City_5 -> City_18 -> City_2 -> City_20 -> City_8 -> City_3 -> City_19 -> City_15 -> City_11 -> City_16 -> City_7 -> City_10 -> City_12 -> City_9 -> City_14 -> City_4 -> City_6 -> City_17 -> City_1 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        516.44
+  Execution Time:        4.7331 seconds
+  Initial Distance:      1285.02
+  Improvement:           59.81%
+  Number of Improvements:53
+  Convergence Generation:461
+  Total Evaluations:     50000
+  Stagnant Generations:  39
+  Starting City:         City_5
+  Route: City_5 -> City_20 -> City_7 -> City_16 -> City_11 -> City_15 -> City_25 -> City_10 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_12 -> City_24 -> City_9 -> City_14 -> City_21 -> City_23 -> City_2 -> City_26 -> City_18 -> City_27 -> City_28 -> City_1 -> City_17 -> City_6 -> City_22 -> City_4 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        599.31
+  Execution Time:        5.2666 seconds
+  Initial Distance:      1765.13
+  Improvement:           66.05%
+  Number of Improvements:74
+  Convergence Generation:417
+  Total Evaluations:     50000
+  Stagnant Generations:  83
+  Starting City:         City_20
+  Route: City_20 -> City_25 -> City_16 -> City_11 -> City_15 -> City_31 -> City_10 -> City_5 -> City_38 -> City_2 -> City_32 -> City_7 -> City_36 -> City_39 -> City_40 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_12 -> City_24 -> City_9 -> City_33 -> City_14 -> City_21 -> City_23 -> City_34 -> City_37 -> City_4 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_13 -> City_28 -> City_27 -> City_18 -> City_26 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 7 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        688.62
+  Execution Time:        5.4853 seconds
+  Initial Distance:      2358.61
+  Improvement:           70.80%
+  Number of Improvements:97
+  Convergence Generation:451
+  Total Evaluations:     50000
+  Stagnant Generations:  49
+  Starting City:         City_20
+  Route: City_20 -> City_23 -> City_46 -> City_37 -> City_4 -> City_22 -> City_6 -> City_35 -> City_17 -> City_34 -> City_14 -> City_21 -> City_30 -> City_29 -> City_50 -> City_3 -> City_8 -> City_25 -> City_16 -> City_11 -> City_15 -> City_39 -> City_36 -> City_7 -> City_32 -> City_49 -> City_10 -> City_31 -> City_40 -> City_42 -> City_19 -> City_43 -> City_12 -> City_33 -> City_9 -> City_24 -> City_47 -> City_2 -> City_44 -> City_38 -> City_5 -> City_13 -> City_1 -> City_28 -> City_27 -> City_18 -> City_26 -> City_41 -> City_45 -> City_48 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0834 seconds
+  Initial Distance:      391.55
+  Improvement:           25.86%
+  Number of Improvements:5
+  Convergence Generation:5
+  Total Evaluations:     50000
+  Stagnant Generations:  495
+  Starting City:         City_1
+  Route: City_1 -> City_6 -> City_4 -> City_9 -> City_3 -> City_8 -> City_10 -> City_7 -> City_2 -> City_5 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        459.33
+  Execution Time:        4.3558 seconds
+  Initial Distance:      871.66
+  Improvement:           47.30%
+  Number of Improvements:27
+  Convergence Generation:182
+  Total Evaluations:     50000
+  Stagnant Generations:  318
+  Starting City:         City_13
+  Route: City_13 -> City_1 -> City_17 -> City_6 -> City_4 -> City_14 -> City_8 -> City_3 -> City_19 -> City_12 -> City_9 -> City_5 -> City_18 -> City_2 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_10 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        500.74
+  Execution Time:        4.7581 seconds
+  Initial Distance:      1312.27
+  Improvement:           61.84%
+  Number of Improvements:43
+  Convergence Generation:93
+  Total Evaluations:     50000
+  Stagnant Generations:  407
+  Starting City:         City_5
+  Route: City_5 -> City_2 -> City_26 -> City_18 -> City_27 -> City_28 -> City_1 -> City_17 -> City_6 -> City_22 -> City_4 -> City_23 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_25 -> City_10 -> City_19 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_12 -> City_24 -> City_9 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        677.68
+  Execution Time:        5.0653 seconds
+  Initial Distance:      1871.88
+  Improvement:           63.80%
+  Number of Improvements:73
+  Convergence Generation:489
+  Total Evaluations:     50000
+  Stagnant Generations:  11
+  Starting City:         City_20
+  Route: City_20 -> City_10 -> City_12 -> City_24 -> City_9 -> City_33 -> City_5 -> City_38 -> City_27 -> City_18 -> City_26 -> City_2 -> City_31 -> City_3 -> City_29 -> City_30 -> City_21 -> City_37 -> City_6 -> City_35 -> City_17 -> City_22 -> City_4 -> City_34 -> City_1 -> City_28 -> City_13 -> City_23 -> City_14 -> City_8 -> City_19 -> City_40 -> City_25 -> City_15 -> City_39 -> City_7 -> City_36 -> City_11 -> City_16 -> City_32 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 8 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        730.69
+  Execution Time:        5.5824 seconds
+  Initial Distance:      2288.61
+  Improvement:           68.07%
+  Number of Improvements:91
+  Convergence Generation:499
+  Total Evaluations:     50000
+  Stagnant Generations:  1
+  Starting City:         City_20
+  Route: City_20 -> City_16 -> City_11 -> City_39 -> City_15 -> City_25 -> City_49 -> City_12 -> City_43 -> City_10 -> City_31 -> City_8 -> City_3 -> City_19 -> City_40 -> City_24 -> City_9 -> City_33 -> City_14 -> City_21 -> City_30 -> City_29 -> City_50 -> City_42 -> City_36 -> City_7 -> City_32 -> City_45 -> City_48 -> City_47 -> City_2 -> City_44 -> City_41 -> City_26 -> City_18 -> City_27 -> City_28 -> City_13 -> City_23 -> City_46 -> City_34 -> City_37 -> City_4 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_5 -> City_38 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 10
+----------------------------------------------------------------------------------------------------
+  Final Distance:        290.31
+  Execution Time:        4.0320 seconds
+  Initial Distance:      356.77
+  Improvement:           18.63%
+  Number of Improvements:4
+  Convergence Generation:6
+  Total Evaluations:     50000
+  Stagnant Generations:  494
+  Starting City:         City_1
+  Route: City_1 -> City_5 -> City_2 -> City_7 -> City_10 -> City_8 -> City_3 -> City_9 -> City_4 -> City_6 -> City_1
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 20
+----------------------------------------------------------------------------------------------------
+  Final Distance:        420.72
+  Execution Time:        4.4043 seconds
+  Initial Distance:      883.70
+  Improvement:           52.39%
+  Number of Improvements:23
+  Convergence Generation:332
+  Total Evaluations:     50000
+  Stagnant Generations:  168
+  Starting City:         City_13
+  Route: City_13 -> City_1 -> City_17 -> City_6 -> City_4 -> City_14 -> City_9 -> City_12 -> City_10 -> City_16 -> City_11 -> City_8 -> City_3 -> City_19 -> City_15 -> City_7 -> City_20 -> City_2 -> City_18 -> City_5 -> City_13
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 30
+----------------------------------------------------------------------------------------------------
+  Final Distance:        481.84
+  Execution Time:        4.7491 seconds
+  Initial Distance:      1246.08
+  Improvement:           61.33%
+  Number of Improvements:31
+  Convergence Generation:85
+  Total Evaluations:     50000
+  Stagnant Generations:  415
+  Starting City:         City_5
+  Route: City_5 -> City_28 -> City_27 -> City_18 -> City_26 -> City_2 -> City_20 -> City_7 -> City_15 -> City_11 -> City_16 -> City_25 -> City_10 -> City_12 -> City_24 -> City_9 -> City_14 -> City_21 -> City_30 -> City_29 -> City_3 -> City_8 -> City_19 -> City_23 -> City_4 -> City_22 -> City_6 -> City_17 -> City_1 -> City_13 -> City_5
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 40
+----------------------------------------------------------------------------------------------------
+  Final Distance:        578.32
+  Execution Time:        5.1324 seconds
+  Initial Distance:      1790.62
+  Improvement:           67.70%
+  Number of Improvements:76
+  Convergence Generation:423
+  Total Evaluations:     50000
+  Stagnant Generations:  77
+  Starting City:         City_20
+  Route: City_20 -> City_2 -> City_38 -> City_26 -> City_18 -> City_27 -> City_28 -> City_1 -> City_13 -> City_5 -> City_10 -> City_31 -> City_8 -> City_3 -> City_29 -> City_30 -> City_21 -> City_14 -> City_9 -> City_33 -> City_37 -> City_4 -> City_22 -> City_6 -> City_35 -> City_17 -> City_34 -> City_23 -> City_24 -> City_12 -> City_19 -> City_40 -> City_15 -> City_25 -> City_16 -> City_11 -> City_39 -> City_36 -> City_7 -> City_32 -> City_20
+
+----------------------------------------------------------------------------------------------------
+SEED: 9 | NUMBER OF CITIES: 50
+----------------------------------------------------------------------------------------------------
+  Final Distance:        773.74
+  Execution Time:        5.5857 seconds
+  Initial Distance:      2310.47
+  Improvement:           66.51%
+  Number of Improvements:109
+  Convergence Generation:493
+  Total Evaluations:     50000
+  Stagnant Generations:  7
+  Starting City:         City_20
+  Route: City_20 -> City_49 -> City_24 -> City_9 -> City_33 -> City_38 -> City_26 -> City_18 -> City_27 -> City_23 -> City_21 -> City_30 -> City_29 -> City_50 -> City_3 -> City_8 -> City_36 -> City_32 -> City_48 -> City_47 -> City_2 -> City_44 -> City_41 -> City_45 -> City_7 -> City_39 -> City_15 -> City_11 -> City_16 -> City_25 -> City_40 -> City_42 -> City_19 -> City_31 -> City_10 -> City_43 -> City_12 -> City_14 -> City_46 -> City_34 -> City_37 -> City_4 -> City_22 -> City_6 -> City_17 -> City_35 -> City_1 -> City_28 -> City_13 -> City_5 -> City_20
+
+====================================================================================================
+SUMMARY STATISTICS BY CITY SIZE
+====================================================================================================
+
+--- 10 CITIES ---
+  Distance - Mean: 290.31, Std: 0.00, Min: 290.31, Max: 290.31
+  Time (s) - Mean: 4.0721, Std: 0.0513, Min: 4.0287, Max: 4.2160
+  Improvement (%) - Mean: 24.53, Std: 3.21
+
+--- 20 CITIES ---
+  Distance - Mean: 431.34, Std: 28.61, Min: 386.43, Max: 485.71
+  Time (s) - Mean: 4.4083, Std: 0.0567, Min: 4.3558, Max: 4.5462
+  Improvement (%) - Mean: 48.89, Std: 4.11
+
+--- 30 CITIES ---
+  Distance - Mean: 526.04, Std: 44.87, Min: 472.39, Max: 627.08
+  Time (s) - Mean: 4.7416, Std: 0.0394, Min: 4.6680, Max: 4.8276
+  Improvement (%) - Mean: 60.10, Std: 3.60
+
+--- 40 CITIES ---
+  Distance - Mean: 625.97, Std: 51.47, Min: 546.31, Max: 706.13
+  Time (s) - Mean: 5.1489, Std: 0.0692, Min: 5.0517, Max: 5.2666
+  Improvement (%) - Mean: 65.57, Std: 3.02
+
+--- 50 CITIES ---
+  Distance - Mean: 744.49, Std: 52.91, Min: 677.76, Max: 857.74
+  Time (s) - Mean: 5.5633, Std: 0.0473, Min: 5.4853, Max: 5.6552
+  Improvement (%) - Mean: 67.57, Std: 2.82
+
+====================================================================================================
+SUMMARY STATISTICS BY SEED
+====================================================================================================
+
+Seed 0: Avg Distance = 500.39, Total Time = 24.15s
+Seed 1: Avg Distance = 514.23, Total Time = 24.00s
+Seed 2: Avg Distance = 530.12, Total Time = 23.77s
+Seed 3: Avg Distance = 525.86, Total Time = 23.89s
+Seed 4: Avg Distance = 572.08, Total Time = 23.88s
+Seed 5: Avg Distance = 516.29, Total Time = 24.08s
+Seed 6: Avg Distance = 531.74, Total Time = 23.91s
+Seed 7: Avg Distance = 504.83, Total Time = 23.90s
+Seed 8: Avg Distance = 531.75, Total Time = 23.85s
+Seed 9: Avg Distance = 508.99, Total Time = 23.90s
+
+====================================================================================================
+OVERALL SUMMARY
+====================================================================================================
+Total Runs: 50
+Overall Mean Distance: 523.63
+Overall Std Distance: 161.55
+Best Distance Found: 290.31
+Worst Distance Found: 857.74
+Total Execution Time: 239.54 seconds
+Average Time per Run: 4.79 seconds
+====================================================================================================
